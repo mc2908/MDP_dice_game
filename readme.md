@@ -1,13 +1,3 @@
-## Introduction
-This readme file aims to give an overview on the steps and decisions taken to complete the three-dice assignment, more specifically, the following points will be touched:
-- Choice of algorithm to calculate the optimal policy
-- Choice of parameters
-- Performance comparison between different algorithms and parameter values
-
-The scope of the assignment is to produce an Agent which maximize the average score when playing the dice game as per rules dictated by the game itself. The problem is solved by calculating the optimal deterministic policy which maps each state to an action. <br>
-In order for the agent to be able to play following different games rules (unknown to the Agent), the Agent implementation does not include specific game rules, it exploits the information the game class provides instead.
-
-
 ## Algorithms to find the Optimal Policy
 Two algorithms were implemented to find the optimal policy which maximizes the expected score, Value Iteration and Policy Iteration. <br>
 Their implementation reflects the sudo-code shown in [1] figure 17.4 pp 653 (Value Iteration) and figure 17.7 pp 657 (Policy Iteration).<br>
